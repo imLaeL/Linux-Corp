@@ -42,6 +42,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="?pg=lista_msg">Lista de Mensagens</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="?pg=lista_cliente">Lista de Clientes</a>
+                </li>
                 </span>
         </div>
     </div>
@@ -51,8 +54,9 @@
 <?php
 
     if (empty($_SERVER['QUERY_STRING'])) {
-        $var = "conteudo.php";
-        include_once($var);
+        // $var = "../principal.php";
+        // include_once($var);
+        echo '<h2 class="text-center">Página de administração</h2>';
     } else {
         $pg = $_GET['pg'];
         include_once("$pg.php");

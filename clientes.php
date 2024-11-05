@@ -33,6 +33,12 @@
                 <p class="text-muted">Sinta-se a vontade</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta vitae earum debitis corporis, exercitationem minima corrupti eveniet nihil quidem nulla sit nemo facere iusto pariatur quo mollitia cupiditate nobis.</p>
                 
+                <form action="?pg=cadastra_cliente" method="POST">
+                    Nome: <input type="text" name="nome"> <br>
+                    E-mail: <input type="text" name="email"> <br>
+                    <input type="submit" value="Enviar">
+                </form>
+
             </div>
         </div>
     </div>
