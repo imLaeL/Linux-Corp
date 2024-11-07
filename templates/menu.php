@@ -9,9 +9,6 @@
           <a class="nav-link active" aria-current="page" href="?pg=principal">Principal</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="?pg=clientes">Clientes</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="?pg=contato">Fale conosco</a>
         </li>
         <li class="nav-item">

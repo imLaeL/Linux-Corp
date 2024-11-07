@@ -8,4 +8,4 @@
 
     mysqli_close($conexao);
 
-    echo "<h2>Mensagem excluída.</h2>";
+    echo "<h2>Cliente excluído.</h2>";
